@@ -1,0 +1,29 @@
+.postImageWrapper{
+    height: 450px;
+    overflow: hidden;
+}
+
+.postImageWrapper img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.blogButton button{
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.blogButton button:hover{
+    background-color: rgb(53, 53, 63);
+    color: #fff;
+}
+
+.blogButton .span{
+    margin-top: 20px;
+    
+}
+.blogButton p{
+    text-align: left;
+    margin-left: 15px;
+}
